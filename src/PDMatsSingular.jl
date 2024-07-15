@@ -1,5 +1,7 @@
 module PDMatsSingular
 
-# Write your package code here.
+export Covariance, covariance_from
+
+include("Covariance.jl")
 
 end
