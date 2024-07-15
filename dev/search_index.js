@@ -1,0 +1,3 @@
+var documenterSearchIndex = {"docs":
+[{"location":"#PDMatsSingular.jl","page":"PDMatsSingular.jl","title":"PDMatsSingular.jl","text":"","category":"section"},{"location":"","page":"PDMatsSingular.jl","title":"PDMatsSingular.jl","text":"Documentation for PDMatsSingular.jl","category":"page"},{"location":"","page":"PDMatsSingular.jl","title":"PDMatsSingular.jl","text":"Modules = [PDMatsSingular]\nOrder = [:type, :function]","category":"page"},{"location":"#PDMatsSingular.Covariance","page":"PDMatsSingular.jl","title":"PDMatsSingular.Covariance","text":"Encode a general covariance as a linear transformation A. The covariance is then Σ = A*A'.\n\n\n\n\n\n","category":"type"}]
+}
