@@ -2,13 +2,21 @@ import PDMats, LinearAlgebra, Random
 import SparseArrays
 
 """
-Encode a general covariance as a linear transformation A.
-The covariance is then Σ = A*A'.
+Encode a general covariance as a linear transformation ``A``.
+The covariance is then
+```math
+Σ = AA^*
+```
 """
 struct Covariance{T, TM} <: PDMats.AbstractPDMat{T}
     trafo::TM
 end
 
+"""
+    covariance_from(A::AbstractArray{T,2})
+
+Create the covariance object corresponding to the matrix ``A``, i.e., ``Σ = A A^*``.
+"""
 covariance_from(trafo::AbstractArray{T,2}) where {T} = Covariance{T, typeof(trafo)}(trafo)
 
 

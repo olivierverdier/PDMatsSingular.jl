@@ -1,6 +1,6 @@
 module PDMatsSingular
 
-export Covariance, covariance_from
+export Covariance, covariance_from, sample
 
 include("Covariance.jl")
 
