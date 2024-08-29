@@ -2,6 +2,7 @@
 
 [![Build Status](https://github.com/olivierverdier/PDMatsSingular.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/olivierverdier/PDMatsSingular.jl/actions/workflows/CI.yml?query=branch%3Amain)
 [![codecov](https://codecov.io/gh/olivierverdier/PDMatsSingular.jl/graph/badge.svg?token=oHxH3LVZ9a)](https://codecov.io/gh/olivierverdier/PDMatsSingular.jl)
+[![](https://img.shields.io/badge/docs-dev-blue.svg)](https://olivierverdier.github.io/PDMatsSingular.jl/)
 
 This package allows to use `PDMats` with singular covariance matrices.
 
